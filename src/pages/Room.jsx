@@ -41,7 +41,7 @@ useEffect(() =>{
   return (
     <main className='container'>
       <div className='room--container'>
-      <form id="message--form" onClick={handleSubmit}>
+      <form id="message--form" onSubmit={handleSubmit}>
         <div>
           <textarea
           requiredmaxlength="1000"
